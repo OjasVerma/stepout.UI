@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #0373F3;
+    background-image: linear-gradient(150deg, #0373F3 0%, #7ba3d5  75%);
+}
+svg{
+    width: 20vw;
+    height: 20vh;
+    fill: white;
+}
+button{
+    width: 40vw;
+    height: 5vh;
+    border-radius: 40px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    margin: 50px;
+    transition: 0.5s;
+    font-family: 'Ubuntu', sans-serif;
+}
+button:hover{
+    width: 40vw;
+    height: 5vh;
+    animation: ease-in-out;
+    border-radius: 40px;
+    border: 2px solid white;
+    background-color: white;
+    color: #497cb8;
+    margin: 50px;
+}
